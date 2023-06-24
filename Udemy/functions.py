@@ -15,3 +15,6 @@ def write_todos(todos_arg, filepath=FILEPATH):
     """Write a new to do item in a text file"""
     with open(filepath, "w") as file:
         file.writelines(todos_arg)
+
+if __name__=="__main__":
+    print(get_todos())
