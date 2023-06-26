@@ -1,6 +1,5 @@
 Learn python carefully
 Fix the bugs
-clean MacBook
 pop
 Play basketball
 Learn all day long
