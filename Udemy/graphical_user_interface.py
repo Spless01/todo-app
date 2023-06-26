@@ -9,13 +9,11 @@ label = Sg.Text("Type in a to-do:")
 input_box = Sg.InputText(tooltip="enter text", key='todo')
 
 add_button = Sg.Button("Add",
-                       #button_color='Green',
-                       border_width=1,
-                        )
+                       border_width=1
+                       )
 
 complete_button = Sg.Button("Complete",
                             key="Complete",
-                            #button_color='Blue',
                             border_width=1,
                             )
 
@@ -26,13 +24,10 @@ lst = Sg.Listbox(values=functions.get_todos(),
                  key='todos')
 
 edit_button = Sg.Button("Edit", key='Edit',
-                        #button_color='Orange',
                         border_width=1,
-
                         )
 
 exit_button = Sg.Button("Exit", key="Exit",
-                       #button_color='Red',
                         border_width=1,
                         )
 
@@ -84,6 +79,4 @@ while True:
 
         case Sg.WIN_CLOSED:
             break
-
-
 window.close()
